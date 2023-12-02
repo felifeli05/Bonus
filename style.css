@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    overflow: hidden;
+}
+
+.input-container,
+.textarea-container{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+.picture-container,
+.bonus-container{
+    padding: 0 1%;
+    margin-bottom: 10px;
+}
+
+
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+.input-row label {
+    margin-top: 2%;
+    margin-right:5%;
+    float: left;
+    
+    
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius:  10px;
+    margin-left: 2%;
+}
+ textarea{
+    resize: none;
+ }
+.spacer{
+    flex:1;
+}
+
+    
